@@ -1,0 +1,39 @@
+.card {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: lightcyan;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.card .img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 40%;
+    margin-bottom: 10px;
+}
+
+.card .head {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 30%);
+
+}
+
+.card .head1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: hsl(0, 0%, 30%);
+}
+
+.card .p1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: hsl(0, 0%, 30%);
+}
